@@ -1,5 +1,7 @@
 Kanshi = Class.new
 
+require 'orderedhash'
+require 'scrolls'
 require 'kanshi/collector'
 require 'kanshi/reporter'
 

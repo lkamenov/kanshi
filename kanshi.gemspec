@@ -13,4 +13,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'sequel', "~> 3.0"
   s.add_dependency 'pg'
+  s.add_dependency 'scrolls'
+  s.add_dependency 'orderedhash'
 end

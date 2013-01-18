@@ -12,7 +12,7 @@ class Kanshi::Reporter
     data = calculate_hit_rate(record_and_diff(name, data))
     if data
       data.each do |k, v|
-        logger.log(:app => name, :measure => true, :at => k, :last => v)
+        logger.log(OrderedHash[:app => name, :measure => true, :at => k, :last => v])
       end
     end
   end
